@@ -1,0 +1,6 @@
+/*
+Enter your query here.
+*/
+SET @angka = 21;
+SELECT REPEAT('* ', @angka := @angka - 1) 
+FROM information_schema.tables;
